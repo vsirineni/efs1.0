@@ -41,7 +41,6 @@ INSTALLED_APPS = [
     'rest_framework',
     'mathfilters',
     'django.contrib.humanize',
-    'import_export',
     'django.contrib.postgres',
 
 ]
