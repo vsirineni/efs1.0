@@ -3,7 +3,7 @@ from import_export.admin import ImportExportModelAdmin
 from .models import Customer, Investment, Stock, User
 
 
-class CustomerList(ImportExportModelAdmin):
+class CustomerList(admin.ModelAdmin):
     list_display = ('cust_number', 'name', 'city', 'cell_phone')
     list_filter = ('cust_number', 'name', 'city')
     search_fields = ('cust_number', 'name')
